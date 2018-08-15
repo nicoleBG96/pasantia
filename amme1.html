@@ -2,32 +2,42 @@
 <html>
 	<head>
 		<title>AMME</title>
-		<link rel="stylesheet" type="text/css" href="ammestyle.css">
+		<link rel="stylesheet" type="text/css" href="ammestyle1.css">
 		<script src="myScript.js"></script>
+		<script src="dropdown.js" defer></script>
 	</head>
 	<body>
 		<div class="side-nav center">
-			<img src="logo-ex.png">
+			<!--<img src="logo-ex.png">-->
 			<ul class="menu">
 				<li><a href="">Somos</a></li>
-				<li><a class="boton" href="">Servicios</a></li>
-					<ul class="areas">
-						<li><a  href="">Catering Eventos y Ferias</a></li>
-						<li><a href="">Cafe internet y juegos en linea</a></li>
-						<li><a href="">Parqueo de motos y motorizados</a></li>
-						<li><a href="">Guarda equipajes</a></li>
-						<li><a href="">Emergencias en Electricidad y Plomeria</a></li>
-						<li><a href="">Car Wash</a></li>
-						<li><a href="">Soluciones inmobiliarias</a></li>
-						<li><a href="">Guia bilingues</a></li>
-						<li><a href="">Comida rapida saludable</a></li>
-						<li><a href="">Platos tipicos</a></li>
-						<li><a href="">Innovacion alimentaria</a></li>
-						<li><a href="">Instrumentos musicales</a></li>
-						<li><a href="">Hecho en bolivia</a></li>
-					</ul>
-				
-				<li><a href="">Contacto</a></li>
+				<li><button class="dropdown-btn">Servicios</button>
+				<div class="dropdown-container">
+					<button class="dropdown-btn">Area de Servicios</button>
+						<div class="dropdown-container">
+							<a href="#">Catering Eventos y Ferias</a>
+							<a href="#">Cafe internet y juegos en linea</a>
+							<a href="#">Parqueo de motos y motorizados</a>
+							<a href="#">Guarda equipajes</a>
+							<a href="#">Emergencias en Electricidad y Plomeria</a>
+							<a href="#">Car Wash</a>
+							<a href="#">Soluciones inmobiliarias</a>
+							<a href="#">Guia bilingues</a>
+						</div>
+					<button class="dropdown-btn">Area de Produccion</button>
+						<div class="dropdown-container">
+							<a href="#">Comida rapida saludable</a>
+							<a href="#">Platos tipicos</a>
+							<a href="#">Innovacion alimentaria</a>
+						</div>
+					<button class="dropdown-btn">Area de Comercializacion</button>
+						<div class="dropdown-container">
+							<a href="#">Instrumentos musicales</a>
+							<a href="#">Hecho en bolivia</a>
+						</div>
+				</div>
+				</li>
+				<li><a href="#">Contacto</a></li>
 			</ul>
 		</div>
 		<div class="main-content center" >
@@ -38,7 +48,7 @@
 				<h2>Noticias</h2>
 				<div class="photo-slide-container">
 					<div class="slide">
-						<img name="image">
+						<!--<img name="image">-->
 						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit nulla, facilisi montes felis lacinia ultricies praesent. Laoreet nec id feugiat litora placerat cum quisque ultricies, arcu parturient sollicitudin lectus fermentum nam rhoncus mi fusce, proin quis suscipit nostra sociosqu porttitor eros. Inceptos quam ultricies eget congue nullam massa bibendum libero senectus donec, ad vestibulum nisi pharetra hendrerit fringilla dictumst netus feugiat venenatis, aliquam tristique sociosqu habitant curae nam tempor lacus rutrum.</p>
 					</div>
 				</div>
@@ -60,20 +70,20 @@
    			 		<div class="areas">
 		   				 <div class="Catering">
 		   					 <h3>Atencion de Catering Eventos y Ferias</h3>
-		   			     	<img src="Catering+copy.jpg" width="200" height="200">
-		   				 	<img src="Feria Celaya 2013.jpg" width="200" height="200">
+		   			     	<!--<img src="Catering+copy.jpg" width="200" height="200">
+		   				 	<img src="Feria Celaya 2013.jpg" width="200" height="200">-->
 		   				 	<h4>Contactanos</h4>
 		   			 	</div>
 		   			 	<div>
 		   					 <h3>Atencion de Cafe internet y juegos en linea las 24 Hrs</h3>
-		   					 <img src="internet.jpg" width="200" height="200">
-		   					 <img src="images.jpeg" width="200" height="200">
+		   					 <!--<img src="internet.jpg" width="200" height="200">
+		   					 <img src="images.jpeg" width="200" height="200">-->
 		   					 <h4>Contactanos</h4>
 		   				 </div>
 		   				 <div>
 		   					 <h3>Parqueo de motorizados y motos las 24 Hrs</h3>
-		   					 <img src="parqueo-autos.JPG" width="200" height="200">
-		   					 <img src="parqueo-motos.jpg" width="200" height="200">
+		   					 <!--<img src="parqueo-autos.JPG" width="200" height="200">
+		   					 <img src="parqueo-motos.jpg" width="200" height="200">-->
 		   					 <h4>Contactanos</h4>
 		   				 </div>    
 		   				 <div>
