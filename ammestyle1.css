@@ -1,0 +1,202 @@
+.center {
+	text-align: center;
+}
+
+* {
+	margin:0px;
+	padding: 0px;
+}
+
+
+
+.side-nav {
+	height: 100%;
+	width: 18%;
+
+	position: fixed;
+
+	overflow-x: hidden;
+	top: 0;
+	left:0;
+
+	background-color: #FFA69E;
+}
+
+.side-nav a {
+    text-decoration: none;    
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    display: block;
+}
+
+.menu{
+	margin-top: 40%;
+}
+
+.menu a{
+	padding: 10px;
+}
+
+.menu a:hover{
+	color: #AA4465;
+}
+
+.side-nav img {
+	height: auto;
+	width: 180px;
+	margin-top: 20px;
+}
+
+.main-content {
+	margin-left: 18%;
+	
+	background-color: rgb(255, 245, 245);
+}
+
+.news {
+	height: 530px;
+}
+
+.main-content h3{
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+.main-content div{
+	padding: 0.5em;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	background-color: white;
+	color: black;
+	border:1px solid #EF3C69;
+	border-radius: 25px;
+}
+
+.photo-slide-container{
+	margin: auto;
+	position: relative;
+}
+
+.news {
+	border-color: solid #EF3C69;
+}
+
+.news div{
+	border: none;
+}
+
+.slide img{
+	float: left;
+	height: 350px;
+}
+
+.slide p{
+	float: right;
+	height: 350px;
+	width: 150px;
+}
+
+.text-container {
+	float: right;
+}
+
+.contact div{
+	display: inline-block;
+	border-style: dashed;
+	border-color: black;
+	border-width: 2px;
+	padding: 7px;
+	margin: 0.5em;
+	background-color: white;
+	opacity: 0.97;
+	width: 120px;
+	height:120px;
+}
+
+.contact a{
+	text-decoration:none;
+	color:black;
+}
+
+.contact div a{
+	text-align:center;
+}
+
+.contact h2{
+	text-align: left;
+	padding:0.5em;
+}
+
+.contact h3{
+	text-align: center;
+}
+
+.contact div:hover{
+	background-color:white ;
+	text-decoration: underline;
+	opacity: 0.97;
+	text-decoration:none;
+}
+
+.contact img{
+	width: 80px;
+	height: 80px;
+}
+
+.side-nav ul{
+    list-style: none;
+}
+
+.side-nav ul a{
+    display:inline-block;
+    font-weight: 400;
+	 letter-spacing:1px;
+}
+
+.side-nav ul li{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.side-nav ul ul{
+    display: none;
+    position: relative;
+}
+
+.side-nav ul ul li{
+    float: none;
+    width: -80px;
+}
+
+.side-nav ul ul a{
+    line-height: 30px;
+    padding: 10px 15px;
+}
+
+.side-nav ul li ul{
+    display: block;
+}
+
+.services > .areas{
+	border:none;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: Black;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+ .boton: hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
